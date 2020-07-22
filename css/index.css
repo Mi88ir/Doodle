@@ -7,7 +7,7 @@ body{
   font-family: "Montserrat";
 }
 
-.container-fluid {
+.navbar-container {
   padding: 3% 15%;
   overflow: hidden;
 }
@@ -58,14 +58,10 @@ h1{
 .feature-box{
   padding:7% 15%;
 }
-/* .name2{
-  margin-top: 10%;
-  margin-bottom: 5%;
-} */
 
 .icon-row{
   text-align: center;
-  padding:5%;
+  padding:4%;
 }
 
 h3{
