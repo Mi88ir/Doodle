@@ -53,3 +53,39 @@ h1{
   transform: rotate(25deg);
   margin-left: 15%;
 }
+
+/* Section Two */
+.feature-box{
+  padding:7% 15%;
+}
+/* .name2{
+  margin-top: 10%;
+  margin-bottom: 5%;
+} */
+
+.icon-row{
+  text-align: center;
+  padding:5%;
+}
+
+h3{
+  margin-top: 1.5rem;
+  position: relative;
+  font-family: "Montserrat";
+  font-weight:700;
+  font-size:1.5rem;
+  text-align: center;
+}
+.icons{
+  color:#ef8172;
+}
+.icons:hover{
+  color:#ff4c68;
+}
+.brief{
+  color:#8f8f8f;
+}
+
+
+
+/* cment */
