@@ -1,8 +1,8 @@
-body{
+body {
   font-family: "Montserrat";
 }
 
-.top{
+.top {
   background-color: #ff4c68;
   font-family: "Montserrat";
 }
@@ -12,76 +12,120 @@ body{
   overflow: hidden;
 }
 
-h1{
+h1 {
   font-family: "Montserrat Black";
   font-size: 3.5rem;
-  color:white;
+  color: white;
   line-height: 1.5;
 }
 
 /* navigation bar */
-.navbar{
-  padding:0 0 4.5rem 0;
+.navbar {
+  padding: 0 0 4.5rem 0;
 }
-.navbar-brand{
+
+.navbar-brand {
   font-family: "Ubuntu";
   font-size: 2.5rem;
   font-weight: bold;
 }
 
-.nav-item{
+.nav-item {
   padding: 0 18px;
 }
 
-.nav-link{
+.nav-link {
   font-size: 1.2rem;
   font-family: "Montserrat Light"
 }
 
 /* Download Buttons */
-
-.download-btn{
+.download-btn {
   margin: 5% 3% 5% 0;
-  font-family: "Montserrat",sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 300;
 }
 
 /* Title Image */
-
-.title-image{
+.title-image {
   width: 60%;
   transform: rotate(25deg);
   margin-left: 15%;
 }
 
 /* Section Two */
-.feature-box{
-  padding:7% 15%;
+.feature-box {
+  padding: 7% 15%;
 }
 
-.icon-row{
+.icon-row {
   text-align: center;
-  padding:4%;
+  padding: 4%;
 }
 
-h3{
+h3 {
   margin-top: 1.5rem;
   position: relative;
   font-family: "Montserrat";
-  font-weight:700;
-  font-size:1.5rem;
+  font-weight: 700;
+  font-size: 1.5rem;
   text-align: center;
 }
-.icons{
-  color:#ef8172;
-}
-.icons:hover{
-  color:#ff4c68;
-}
-.brief{
-  color:#8f8f8f;
+
+.icons {
+  color: #ef8172;
 }
 
+.icons:hover {
+  color: #ff4c68;
+}
 
+.brief {
+  color: #8f8f8f;
+}
 
-/* cment */
+/* Testimonials */
+.section-three {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+h2 {
+  font-family: "Montserrat Black";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press */
+.section-four {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+.section-five{
+  padding:100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding:3% 2%;
+}
