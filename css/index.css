@@ -8,7 +8,7 @@ body {
 }
 
 .navbar-container {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
   overflow: hidden;
 }
 
@@ -50,12 +50,16 @@ h1 {
 .title-image {
   width: 60%;
   transform: rotate(25deg);
-  margin-left: 15%;
+  position: absolute;
+  right: 30%;
 }
 
 /* Section Two */
 .feature-box {
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  /* z-index: 1; */
 }
 
 .icon-row {
